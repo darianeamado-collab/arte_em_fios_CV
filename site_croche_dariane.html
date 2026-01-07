@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja de Peças em Crochê - Cabo Verde</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #333;
+        }
+        header {
+            background: #ff8fb1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        nav {
+            background: #ffd1dc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+            background: white;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+        .card button {
+            background: #ff8fb1;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            color: white;
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ffd1dc;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>Loja de Crochê - Cabo Verde</header>
+
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Peças de Crochê Feitas à Mão</h1>
+        <p>Qualidade, conforto e estilo — entregas para todo Cabo Verde.</p>
+    </section>
+
+    <section id="produtos" class="produtos">
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Peça 1" />
+            <h3>Top de Crochê</h3>
+            <p>Preço: 2.500$00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Peça 2" />
+            <h3>Bolsa de Crochê</h3>
+            <p>Preço: 3.000$00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250" alt="Peça 3" />
+            <h3>Chapéu de Crochê</h3>
+            <p>Preço: 1.800$00</p>
+            <button>Comprar</button>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>Contacto: <strong>+238 000 00 00</strong> | Email: <strong>darianeamado@gmail.com</strong></p>
+        <p>© 2026 Loja de Crochê | Cabo Verde</p>
+    </footer>
+</body>
+</html>
